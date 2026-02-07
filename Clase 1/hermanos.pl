@@ -29,18 +29,19 @@ mediohermano(X,Y) :- (madre(M,X) , madre(M,Y) ) , (padre(P,X) , padre(P2,Y) ,  (
 /*Consulta*/
 
 /*
-resultado = hermano(maria,jorge)
-resultado2 = mediohermano(maria,jorge)
-resultado3 = hermano(maria,benito)
+hermano(maria,jorge)
+mediohermano(maria,jorge)
+hermano(maria,benito)
 */
 
-/*Resultado*/
+
+
+
 
 /*
-print(¿María y José son hermanos?,bool(resultado))
-print(¿María y Jorge son medio hermanos?,bool(resultado2))
-print(¿María y Jorge son medio hermanos?,bool(resultado3))
+Pasos para ejecutar el archivo:
+    swipl hermanos.pl
+    Luego de ejecutar, prolog esperará a que ingresemos las consultas
+    Por ejemplo: ?- hermano(maria,jorge).
+    No olivdar colocar el punto al final
 */
-
-
-
