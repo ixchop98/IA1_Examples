@@ -6,6 +6,9 @@ mother(mary, ann).
 father(mary, fred).
 father(john, fred).
 
+father(pedro, fred).
+mother(pedro, ann).
+
 /*
 Consulta verdadera:
     female(mary), parent(mary,M,F), parent(john, M, F).
