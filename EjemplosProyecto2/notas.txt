@@ -1,0 +1,22 @@
+1. Crear tu proyecto
+
+Abre CMD y ve a una carpeta:
+
+mkdir vision_project
+cd vision_project
+
+2. Crear entorno virtual
+py -3.10 -m venv venv
+
+3. Activar entorno
+venv\Scripts\activate
+
+Deberías ver:
+
+(venv) C:\vision_project>
+
+4. Actualizar pip (importante)
+python -m pip install --upgrade pip
+
+5. Instalar librerías
+pip install mediapipe opencv-python
